@@ -22,4 +22,7 @@ describe("adder", () => {
     it("should add numbers separted by change in delimiter ;", () => {
         expect(calculator("//;\n1;2")).toBe(3);
     });
+    it("should add numbers separted by defirrent delimiter", () => {
+        expect(calculator("//;\n1;2'3|4{5")).toBe(15);
+    });
 })
