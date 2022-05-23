@@ -25,4 +25,7 @@ describe("adder", () => {
     it("should add numbers separted by defirrent delimiter", () => {
         expect(calculator("//;\n1;2'3|4{5")).toBe(15);
     });
+    it("Show negatives not allowed", () => {
+        expect(calculator("//;\n1;2'3|-4,-5")).toBe('negatives not allowed'+' '+'Remove the following Number -4,-5');
+    });
 })
