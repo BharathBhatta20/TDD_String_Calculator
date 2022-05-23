@@ -23,3 +23,13 @@ The first line is optional. all existing scenarios should still be supported
 Calling Add with a negative number will throw an exception "negatives not allowed" - and the negative that was passed.
 
 If there are multiple negatives, show all of them in the exception message.
+
+<><><><><><><><><><><><><><><><><><><><><><><><>
+
+Installation Requires: npm , yarn
+Download NodeJs : https://nodejs.org/en/
+
+Commands :
+To Install Yarn : npm install --global yarn
+To Install Jest : yarn add -D jest
+To run test case : yarn jest
